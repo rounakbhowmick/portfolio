@@ -37,6 +37,12 @@ ul li a {
     color: black;
 }
 
+a:hover {
+    padding-bottom: 0.2rem;
+    border-bottom: 0.1rem solid rgb(126, 126, 126);
+    font-weight: 900;
+}
+
 .contact a,
 .button {
     background: #f05136;
@@ -44,6 +50,10 @@ ul li a {
     border-radius: 5px;
     padding: 0.5rem;
     cursor: pointer;
+}
+
+.contact a:hover {
+    background: #ff2600;
 }
 
 .logo {
@@ -144,11 +154,13 @@ ul li a {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    padding-left: 5rem;
 }
 
 .border {
     border-bottom: 1px solid rgb(255, 255, 255);
-    width: 23rem;
+    width: 20rem;
+
 }
 
 .p-heading {
